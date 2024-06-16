@@ -51,21 +51,21 @@
 import { ref, onMounted, onUnmounted } from 'vue';
 
 const images = ref([
-  { src: 'src/assets/01.jpeg' },
-  { src: 'src/assets/02.jpeg' },
-  { src: 'src/assets/03.jpeg' },
-  { src: 'src/assets/04.jpeg' },
-  { src: 'src/assets/05.jpeg' },
-  { src: 'src/assets/06.jpeg' },
-  { src: 'src/assets/07.jpeg' },
-  { src: 'src/assets/08.jpeg' },
-  { src: 'src/assets/09.jpeg' },
-  { src: 'src/assets/10.jpeg' },
-  { src: 'src/assets/11.jpeg' },
-  { src: 'src/assets/12.jpeg' },
-  { src: 'src/assets/13.jpeg' },
-  { src: 'src/assets/14.jpeg' },
-  { src: 'src/assets/15.jpeg' },
+  { src: './src/assets/01.jpeg' },
+  { src: './src/assets/02.jpeg' },
+  { src: './src/assets/04.jpeg' },
+  { src: './src/assets/05.jpeg' },
+  { src: './src/assets/03.jpeg' },
+  { src: './src/assets/06.jpeg' },
+  { src: './src/assets/07.jpeg' },
+  { src: './src/assets/08.jpeg' },
+  { src: './src/assets/09.jpeg' },
+  { src: './src/assets/10.jpeg' },
+  { src: './src/assets/11.jpeg' },
+  { src: './src/assets/12.jpeg' },
+  { src: './src/assets/13.jpeg' },
+  { src: './src/assets/14.jpeg' },
+  { src: './src/assets/15.jpeg' },
 ]);
 
 const activeImage = ref(null);
